@@ -7,9 +7,9 @@ the work of Luke Smith.
 This set of dotfiles assumes you have a working Arch Linux installation with
 the following programs installed:
 
-+ An X-compatible terminal, such as (https://invisible-island.net/xterm "xterm") or (https://st.suckless.org "st")
-+ (https://github.com/Airblader/i3 "i3-gaps"): A tiling window manager for X
-+ (https://github.com/yshui/picom "picom"): Compositor for X
-+ (https://github.com/ranger/ranger "ranger"): Terminal-based file manager
-+ (https://www.vim.org "Vim"): Terminal-based text editor
++ An X-compatible terminal, such as [xterm](https://invisible-island.net/xterm) or [st](https://st.suckless.org)
++ [i3-gaps](https://github.com/Airblader/i3): A tiling window manager for X
++ [picom](https://github.com/yshui/picom): Compositor for X
++ [ranger](https://github.com/ranger/ranger): Terminal-based file manager
++ [Vim](https://www.vim.org): Terminal-based text editor
 
