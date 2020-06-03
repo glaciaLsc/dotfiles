@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/var/spool/mail/gjustice'
+let g:netrw_dirhist_3='/home/gjustice/Stetson/csci_304/project_1'
+let g:netrw_dirhist_2='/home/gjustice/.calcurse'
+let g:netrw_dirhist_1='/home/gjustice/Programs/iot'
+let g:netrw_dirhist_0='/home/gjustice/.config/i3'
+let g:netrw_dirhist_9='/home/gjustice/Books'
+let g:netrw_dirhist_8='/home/gjustice/Documents/resume'
+let g:netrw_dirhist_7='/home/gjustice/Documents'
+let g:netrw_dirhist_6='/home/gjustice/Stetson/csci_201/hw3'
+let g:netrw_dirhist_5='/home/gjustice/Builds/st-0.8.2'
