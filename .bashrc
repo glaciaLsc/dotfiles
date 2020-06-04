@@ -7,8 +7,8 @@
 PS1='[\u@\h \W]\$ '
 
 export EDITOR="vim"
-export TERMINAL="st"
-export BROWSER="firefox"
+#export TERMINAL="terminal_name_here"
+#export BROWSER="browser_name_here"
 
 # Make Ranger cd into most recently-visited directory upon exiting
 function ranger-cd {
