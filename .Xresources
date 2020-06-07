@@ -1,8 +1,8 @@
 ! XTerm font
 *faceName: Monospace
-*faceSize: 16
+*faceSize: 20
 ! st font
-*font: mono:pixelsize=22:antialias=true:autohint=true
+*font: mono:pixelsize=28:antialias=true:autohint=true
 
 ! special
 *.foreground:   #c6c8d1
