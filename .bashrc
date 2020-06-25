@@ -6,7 +6,7 @@
 
 PS1='[\u@\h \W]\$ '
 
-export EDITOR="vim"
+#export EDITOR="editor_name_here"
 #export TERMINAL="terminal_name_here"
 #export BROWSER="browser_name_here"
 
