@@ -1,25 +1,14 @@
 #
-# ~/.bashrc
+# ~/.zshrc
 #
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-BF_RED='\[\033[1;31m\]'
-BF_GREEN='\[\033[1;32m\]'
-BF_YELLOW='\[\033[1;33m\]'
-BF_BLUE='\[\033[1;34m\]'
-BF_MAGENTA='\[\033[1;35m\]'
-BF_CYAN='\[\033[1;36m\]'
-BF_WHITE='\[\033[1;37m\]'
+PS1="[%n@%M %1~]$ "
 
-DEFAULT='\[\033[0m\]'
-
-#PS1='[\u@\h \W]$ '
-PS1=$BF_WHITE'['$BF_MAGENTA'\u'$BF_WHITE'@'$BF_RED'\h'$BF_BLUE' \W'$BF_WHITE']'$BF_MAGENTA'$ '$DEFAULT
-
-#export EDITOR=
-#export TERMINAL=
-#export BROWSER=
+#export EDITOR="vim"
+#export TERMINAL="st"
+#export BROWSER="firefox"
 
 # Make Ranger cd into most recently-visited directory upon exiting
 function ranger-cd {
