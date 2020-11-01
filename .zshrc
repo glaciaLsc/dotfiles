@@ -4,7 +4,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1="[%n@%M %1~]$ "
+PS1="%B%F{yellow}%? %F{white}[%F{magenta}%n%F{white}@%F{red}%M %F{blue}%1~%F{white}]%F{magenta}$ %b%f"
 
 #export EDITOR="vim"
 #export TERMINAL="st"
@@ -22,9 +22,11 @@ function ranger-cd {
 }
 
 # Aliases
-## Default programs
+## GNU programs
 alias ls='ls --color=auto'
 ## Installed programs
 alias nf='neofetch'
-alias zt='zathura --fork'
 alias rn='ranger-cd'
+alias zt='zathura --fork'
+alias mp='setsid -f mupdf'
+alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'
