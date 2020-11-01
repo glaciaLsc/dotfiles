@@ -6,9 +6,9 @@
 
 PS1="%B%F{yellow}%? %F{white}[%F{magenta}%n%F{white}@%F{red}%M %F{blue}%1~%F{white}]%F{magenta}$ %b%f"
 
-#export EDITOR="vim"
-#export TERMINAL="st"
-#export BROWSER="firefox"
+#export EDITOR=
+#export TERMINAL=
+#export BROWSER=
 
 # Make Ranger cd into most recently-visited directory upon exiting
 function ranger-cd {
