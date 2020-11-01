@@ -23,8 +23,8 @@ aesthetic quality. These two goals are achieved by the following modifications:
 * Vim-like controls across all applications, including **i3-gaps**
 * Startup commands in *.xinitrc* to automatically load the *.Xresources*
   configuration file, start **Picom**, and launch **i3-gaps**.
-* *.bashrc* function to allow **ranger** to change directories upon exiting,
-  along with useful alias commands
+* *.bashrc* / *zshrc* function to allow **ranger** to change
+  directories upon exiting, along with useful alias commands
 * Vim commands to enable syntax, indentation, and relative numbering, as well
   as enforce an appropriate text width
 * An attractive and classy [iceberg](https://cocopon.github.io/iceberg.vim/)
