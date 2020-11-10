@@ -25,7 +25,7 @@ aesthetic quality. These two goals are achieved by the following modifications:
 * Vim-like controls across all applications, including **i3-gaps**
 * Startup commands in *.xinitrc* to automatically load the *.Xresources*
   configuration file, start **Picom**, and launch **i3-gaps**.
-* *.bashrc* / *zshrc* function to allow **ranger** to change
+* *.bashrc* / *zshrc* function to allow **Ranger** to change
   directories upon exiting, along with useful alias commands
 * Vim commands to enable syntax, indentation, and relative numbering, as well
   as enforce an appropriate text width
