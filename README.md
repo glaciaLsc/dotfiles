@@ -14,7 +14,8 @@ the following programs installed:
 + [ranger](https://github.com/ranger/ranger): Terminal-based file manager
 + [neofetch](https://github.com/dylanaraps/neofetch): Terminal-based system
   information program
-+ [Vim](https://www.vim.org): Terminal-based text editor
++ [Vim](https://www.vim.org): Terminal-based text editor (or,
+  alternatively, [neovim](https://neovim.io))
 + [Zathura](https://pwmt.org/projects/zathura): Document viewer
 
 ## Notable Changes
