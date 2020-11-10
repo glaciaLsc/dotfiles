@@ -4,6 +4,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Default prompt
+#PS1="[%n@%M %1~]$ "
+# Colorful prompt
 PS1="%B%F{white}[%F{magenta}%n%F{white}@%F{red}%M %F{blue}%1~%F{white}]%F{magenta}$ %b%f"
 
 #export EDITOR=
@@ -30,3 +33,6 @@ alias rn='ranger-cd'
 alias zt='zathura --fork'
 alias mp='setsid -f mupdf'
 alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'
+
+# Enable Vi key bindings
+#bindkey -v

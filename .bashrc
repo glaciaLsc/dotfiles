@@ -14,7 +14,9 @@ BF_WHITE='\[\033[1;37m\]'
 
 DEFAULT='\[\033[0m\]'
 
+# Default prompt
 #PS1='[\u@\h \W]$ '
+# Colorful prompt
 PS1=$BF_WHITE'['$BF_MAGENTA'\u'$BF_WHITE'@'$BF_RED'\h'$BF_BLUE' \W'$BF_WHITE']'$BF_MAGENTA'$ '$DEFAULT
 
 #export EDITOR=
