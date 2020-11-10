@@ -10,12 +10,12 @@ the following programs installed:
 
 + An X-compatible terminal, such as [xterm](https://invisible-island.net/xterm) or [st](https://st.suckless.org)
 + [i3-gaps](https://github.com/Airblader/i3): A tiling window manager for X
-+ [picom](https://github.com/yshui/picom): Compositor for X
-+ [ranger](https://github.com/ranger/ranger): Terminal-based file manager
-+ [neofetch](https://github.com/dylanaraps/neofetch): Terminal-based system
++ [Picom](https://github.com/yshui/picom): Compositor for X
++ [Ranger](https://github.com/ranger/ranger): Terminal-based file manager
++ [Neofetch](https://github.com/dylanaraps/neofetch): Terminal-based system
   information program
 + [Vim](https://www.vim.org): Terminal-based text editor (or,
-  alternatively, [neovim](https://neovim.io))
+  alternatively, [Neovim](https://neovim.io))
 + [Zathura](https://pwmt.org/projects/zathura): Document viewer
 
 ## Notable Changes
