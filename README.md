@@ -29,8 +29,8 @@ aesthetic quality. These two goals are achieved by the following modifications:
   directories upon exiting, along with useful alias commands
 * Vim commands to enable syntax, indentation, and relative numbering, as well
   as enforce an appropriate text width
-* An attractive and classy [iceberg](https://cocopon.github.io/iceberg.vim/)
-  color scheme, loaded by *.Xresources*
+* A retro [gruvbox](https://github.com/morhetz/gruvbox) color scheme,
+  loaded by *.Xresources*
 
 I hope you all enjoy these configurations, which are the result of hours of
 minor tweaks over the months! Feel free to fork and upload your own variations
