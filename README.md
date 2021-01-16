@@ -29,7 +29,7 @@ aesthetic quality. These two goals are achieved by the following modifications:
   directories upon exiting, along with useful alias commands
 * Vim commands to enable syntax, indentation, and relative numbering, as well
   as enforce an appropriate text width
-* A retro [gruvbox](https://github.com/morhetz/gruvbox) color scheme,
+* A moody [gotham](https://github.com/whatyouhide/vim-gotham) color scheme,
   loaded by *.Xresources*
 
 I hope you all enjoy these configurations, which are the result of hours of
