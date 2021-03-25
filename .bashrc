@@ -14,14 +14,18 @@ BF_WHITE='\[\033[1;37m\]'
 
 DEFAULT='\[\033[0m\]'
 
-# Default prompt
 #PS1='[\u@\h \W]$ '
-# Colorful prompt
 PS1=$BF_WHITE'['$BF_MAGENTA'\u'$BF_WHITE'@'$BF_RED'\h'$BF_BLUE' \W'$BF_WHITE']'$BF_MAGENTA'$ '$DEFAULT
 
-#export EDITOR=
-#export TERMINAL=
-#export BROWSER=
+export EDITOR="nvim"
+export TERMINAL="st"
+export BROWSER="firefox"
+
+PATH="/home/garrett/.perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/garrett/.perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/garrett/.perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/garrett/.perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/garrett/.perl5"; export PERL_MM_OPT;
 
 # Make Ranger cd into most recently-visited directory upon exiting
 function ranger-cd {
@@ -35,9 +39,14 @@ function ranger-cd {
 }
 
 # Aliases
-## Default programs
+## GNU programs
 alias ls='ls --color=auto'
+alias man='man -O width=$COLUMNS'
 ## Installed programs
 alias nf='neofetch'
-alias zt='zathura --fork'
 alias rn='ranger-cd'
+alias zt='zathura --fork'
+alias mp='setsid -f mupdf'
+alias alsamixer='alsamixer -g'
+alias ncmpc='ncmpc -C'
+alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'

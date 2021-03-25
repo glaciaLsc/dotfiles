@@ -35,6 +35,8 @@ alias nf='neofetch'
 alias rn='ranger-cd'
 alias zt='zathura --fork'
 alias mp='setsid -f mupdf'
+alias alsamixer='alsamixer -g'
+alias ncmpc='ncmpc -C'
 alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'
 
 # Enable syntax highlighting
