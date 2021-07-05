@@ -40,7 +40,7 @@ function ranger-cd {
 
 # Aliases
 ## GNU programs
-alias ls='ls --color=auto'
+alias ls='ls -l --color=auto'
 alias man='man -O width=$COLUMNS'
 ## Installed programs
 alias nf='neofetch'
