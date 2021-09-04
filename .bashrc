@@ -20,6 +20,7 @@ PS1=$BF_WHITE'['$BF_MAGENTA'\u'$BF_WHITE'@'$BF_RED'\h'$BF_BLUE' \W'$BF_WHITE']'$
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
+export XDG_CONFIG_HOME="/home/garrett/.config"
 
 PATH="/home/garrett/.perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/garrett/.perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -40,7 +41,7 @@ function ranger-cd {
 
 # Aliases
 ## GNU programs
-alias ls='ls -l --color=auto'
+alias ls='ls --color=auto'
 alias man='man -O width=$COLUMNS'
 ## Installed programs
 alias nf='neofetch'
