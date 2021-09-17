@@ -21,6 +21,7 @@ export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
 export XDG_CONFIG_HOME="/home/garrett/.config"
+export TMPDIR="/tmp"
 
 PATH="/home/garrett/.perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/garrett/.perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -29,7 +30,7 @@ PERL_MB_OPT="--install_base \"/home/garrett/.perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/garrett/.perl5"; export PERL_MM_OPT;
 
 # Make Ranger cd into most recently-visited directory upon exiting
-function ranger-cd {
+function rangercd {
     tempfile="$(mktemp -t tmp.XXXXXX)"
     ranger --choosedir="$tempfile" "${@:-$(pwd)}"
     test -f "$tempfile" &&
@@ -38,6 +39,20 @@ function ranger-cd {
     fi
     rm -f -- "$tempfile"
 }
+# Same thing with lf
+function lfcd {
+    tmp="$(mktemp)"
+    lf -last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp"
+        if [ -d "$dir" ]; then
+            if [ "$dir" != "$(pwd)" ]; then
+                cd "$dir"
+            fi
+        fi
+    fi
+}
 
 # Aliases
 ## GNU programs
@@ -45,7 +60,7 @@ alias ls='ls --color=auto'
 alias man='man -O width=$COLUMNS'
 ## Installed programs
 alias nf='neofetch'
-alias rn='ranger-cd'
+alias rn='rangercd'
 alias zt='zathura --fork'
 alias mp='setsid -f mupdf'
 alias alsamixer='alsamixer -g'
