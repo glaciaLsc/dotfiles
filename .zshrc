@@ -1,6 +1,8 @@
 #
 # ~/.zshrc
 #
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
 
 #PS1="[%n@%M %1~]$ "
 PS1="%B%F{white}[%F{magenta}%n%F{white}@%F{red}%M %F{blue}%1~%F{white}]%F{magenta}$ %b%f"
@@ -10,6 +12,9 @@ export TERMINAL="st"
 export BROWSER="firefox"
 export XDG_CONFIG_HOME="/home/garrett/.config"
 export TMPDIR="/tmp"
+
+export GOPATH="/home/garrett/.go"
+export GOMODCACHE="$GOPATH/pkg/mod"
 
 PATH="/home/garrett/.perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/garrett/.perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -56,4 +61,4 @@ alias ncmpc='ncmpc -C'
 alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'
 
 # Enable syntax highlighting
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -23,6 +23,9 @@ export BROWSER="firefox"
 export XDG_CONFIG_HOME="/home/garrett/.config"
 export TMPDIR="/tmp"
 
+export GOPATH="/home/garrett/.go"
+export GOMODCACHE="$GOPATH/pkg/mod"
+
 PATH="/home/garrett/.perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/garrett/.perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/garrett/.perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
