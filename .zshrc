@@ -13,10 +13,13 @@ export BROWSER="firefox"
 export XDG_CONFIG_HOME="/home/garrett/.config"
 export TMPDIR="/tmp"
 
+PATH="/home/garrett/.local/bin${PATH:+:${PATH}}"; export PATH;
+PATH="/home/garrett/.go/bin${PATH:+:${PATH}}"; export PATH;
+PATH="/home/garrett/.perl5/bin${PATH:+:${PATH}}"; export PATH;
+
 export GOPATH="/home/garrett/.go"
 export GOMODCACHE="$GOPATH/pkg/mod"
 
-PATH="/home/garrett/.perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/garrett/.perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/garrett/.perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/garrett/.perl5\""; export PERL_MB_OPT;
@@ -61,4 +64,4 @@ alias ncmpc='ncmpc -C'
 alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'
 
 # Enable syntax highlighting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
