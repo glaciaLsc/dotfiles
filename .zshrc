@@ -63,8 +63,8 @@ alias zt='zathura --fork'
 alias mp='setsid -f mupdf'
 alias alsamixer='alsamixer -g'
 alias ncmpc='ncmpc -C'
-alias sf='sfeed_curses /home/garrett/.sfeed/feeds/*'
+alias sf='sfeed_update; sfeed_curses /home/garrett/.sfeed/feeds/*'
 alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'
 
 # Enable syntax highlighting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
