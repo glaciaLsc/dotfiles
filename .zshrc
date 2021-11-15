@@ -9,7 +9,8 @@ PS1="%B%F{white}[%F{magenta}%n%F{white}@%F{red}%M %F{blue}%1~%F{white}]%F{magent
 
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="firefox"
+export BROWSER="brave"
+export SFEED_PLUMBER="brave"
 export XDG_CONFIG_HOME="/home/garrett/.config"
 export TMPDIR="/tmp"
 

@@ -19,7 +19,8 @@ PS1=$BF_WHITE'['$BF_YELLOW'\u'$BF_GREEN'@'$BF_CYAN'\h'$BF_BLUE' \W'$BF_WHITE']'$
 
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="firefox"
+export BROWSER="brave"
+export SFEED_PLUMBER="brave"
 export XDG_CONFIG_HOME="/home/garrett/.config"
 export TMPDIR="/tmp"
 
