@@ -20,6 +20,7 @@ PS1=$BF_WHITE'['$BF_MAGENTA'\u'$BF_WHITE'@'$BF_RED'\h'$BF_BLUE' \W'$BF_WHITE']'$
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="brave"
+export SFEED_URL_FILE="/home/garrett/.sfeed/read"
 export SFEED_PLUMBER="brave"
 export XDG_CONFIG_HOME="/home/garrett/.config"
 export TMPDIR="/tmp"

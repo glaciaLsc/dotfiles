@@ -10,6 +10,7 @@ PS1="%B%F{white}[%F{magenta}%n%F{white}@%F{red}%M %F{blue}%1~%F{white}]%F{magent
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="brave"
+export SFEED_URL_FILE="/home/garrett/.sfeed/read"
 export SFEED_PLUMBER="brave"
 export XDG_CONFIG_HOME="/home/garrett/.config"
 export TMPDIR="/tmp"
@@ -65,4 +66,4 @@ alias ncmpc='ncmpc -C'
 alias voiddoc='zathura --fork /usr/share/doc/void/handbook.pdf'
 
 # Enable syntax highlighting
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
