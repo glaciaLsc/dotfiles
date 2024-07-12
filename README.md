@@ -1,8 +1,7 @@
 # Gary J's Dotfiles
 This is a simple yet intuitive configuration suite for GNU/Linux
 distributions, which uses i3-gaps for desktop window management
-and has some nifty convenience features. Inspired by the work of
-Luke Smith.
+and has some nifty convenience features.
 
 ## Prerequisites
 This set of dotfiles assumes you have a working GNU/Linux installation with
